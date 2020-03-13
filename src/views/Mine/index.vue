@@ -1,0 +1,26 @@
+<template>
+  <div class="main">
+    <Header title="我的嘟嘟" />
+    <TabBar />
+  </div>
+</template>
+
+<script>
+
+import Header from '@/components/Header'
+import TabBar from '@/components/TabBar'
+
+export default {
+  name:'Mine',
+  components:{
+    Header,
+    TabBar
+  },
+  data() {
+    return {
+    };
+  },
+};
+</script>
+<style scoped>
+</style>
